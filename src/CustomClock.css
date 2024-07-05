@@ -1,0 +1,53 @@
+/* CustomClock.css */
+
+/* Clock container */
+.react-datetime-picker__clock {
+  background-color: #a8a8a8; /* Dark background */
+  border: 1px solid #444; /* Dark border */
+  border-radius: 10px; /* Rounded corners */
+  color: #ccc; /* Light text color */
+  z-index: 10;
+  
+}
+
+/* Clock face */
+.react-clock__face {
+  background-color: #a8a8a8; /* Dark background */
+  border: none; /* No border */
+}
+
+
+/* Clock numbers */
+.react-clock__mark__number {
+  color: #ccc; /* Light text color */
+}
+
+/* Clock marks */
+.react-clock__mark {
+  background-color: #4caf50; /* Green marks */
+}
+
+/* Clock center */
+.react-clock__mark__center {
+  background-color: #4caf50; /* Green center */
+}
+
+/* Clock minute hand */
+.react-clock__hand__minute {
+  background-color: #4caf50; /* Green minute hand */
+}
+
+/* Clock hour hand */
+.react-clock__hand__hour {
+  background-color: #4caf50; /* Green hour hand */
+}
+
+/* Clock second hand */
+.react-clock__hand__second {
+  background-color: #ff0000; /* Red second hand */
+}
+
+/* Clock on hover */
+.react-clock:hover {
+  border-color: #4caf50; /* Green border on hover */
+}
